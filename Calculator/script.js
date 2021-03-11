@@ -89,7 +89,7 @@ const allClearButton = document.querySelector('[data-all-clear]')
 const previousOperandButton = document.querySelector('[data-previous-operand]')
 const currentOperandButton = document.querySelector('[data-current-operand]')
 
-const caculator = new Caculator(previousOperandTextElement, currentOperandTextElement)
+const calculator = new Calculator(previousOperandTextElement, currentOperandTextElement)
 
 numberButtons.forEach(button => {
     button.addEventListener('click', () => {
